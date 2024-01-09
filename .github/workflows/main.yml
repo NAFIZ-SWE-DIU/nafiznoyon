@@ -14,6 +14,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        ftp-server: ftp://109.123.246.76
+        ftp-server: ftp.shosurbari.com
         ftp-username: admin_nafiz
-        ftp-password: ${{ secrets.prod_FTP_PASSWORD }}
+        ftp-password: SoftwareEngineer@480
